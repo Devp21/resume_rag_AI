@@ -9,7 +9,7 @@ performed simple rag based application on resume with huggingface embeddings and
     ↓ (Embed)
 🔢 Vectors
     ↓ (Store)
-💾 Chroma DB
+💾 pinecone DB
 
 --- Setup Complete ---
 
