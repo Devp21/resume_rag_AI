@@ -327,7 +327,7 @@ async def root():
             <h3>1. Upload Resume</h3>
             <form id="uploadForm" enctype="multipart/form-data">
                 <input type="file" id="fileInput" accept=".pdf" required>
-                <input type="text" id="userId" placeholder="Enter User ID (optional)" value="test_user">
+                <input type="text" id="userId" placeholder="Enter User ID (optional)" value="dev_user">
                 <button type="submit">Upload Resume</button>
             </form>
             <div id="uploadResult" class="result" style="display:none;"></div>
@@ -337,7 +337,7 @@ async def root():
             <h3>2. Ask Questions</h3>
             <form id="questionForm">
                 <textarea id="question" placeholder="Ask about your resume..." rows="3"></textarea>
-                <input type="text" id="questionUserId" placeholder="User ID" value="test_user">
+                <input type="text" id="questionUserId" placeholder="User ID" value="dev_user">
                 <button type="submit">Ask Question</button>
             </form>
             <div id="questionResult" class="result" style="display:none;"></div>
